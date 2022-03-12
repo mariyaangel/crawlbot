@@ -63,6 +63,7 @@ downloadRobots() {
     customizing
 }
 
+
 #filtering_allows_and_disallows_from_all.txt_and_appending_them_to_the_respective_textfiles
 function customizing {
     echo "" > $URL/allows.txt && echo "" > $URL/disallows.txt
@@ -77,8 +78,6 @@ function customizing {
     done < $URL/all.txt
     echo "download completed. output saved in /all.txt, /allows.txt, /disallows.txt in the $URL directory"
 }
-
-
 
 
 #validating_as_http_or_https
