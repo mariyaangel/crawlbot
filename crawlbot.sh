@@ -79,8 +79,6 @@ function customizing {
 }
 
 
-
-
 #validating_as_http_or_https
 URL=$1
 
